@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item android:title="Danh Sách Điện Thoại"
+            android:id="@+id/nav_dienthoai"
+            android:icon="@drawable/smartphone"/>
+    </group>
+    <item android:title="Quản lý">
+    <menu >
+        <item android:title="Quản Lý Điện Thoại"
+            android:id="@+id/nav_qldienthoai"
+            android:icon="@drawable/smartphone"/>
+        <item android:title="Quản Lý Đơn Hàng"
+            android:id="@+id/nav_qldonhang"
+            android:icon="@drawable/smartphone"/>
+        <item android:title="Quản Lý Người Dùng"
+            android:id="@+id/nav_qlnguoidung"
+            android:icon="@drawable/avt"/>
+        <item android:title="Quản Lý Thông Báo"
+            android:id="@+id/nav_thongbao"
+            android:icon="@drawable/avt"/>
+    </menu>
+    </item>
+    <item android:title="Thống Kê">
+        <menu >
+            <item android:title="Thống Kê"
+                android:id="@+id/nav_thongke"
+                android:icon="@drawable/toi"/>
+        </menu>
+    </item>
+</menu>

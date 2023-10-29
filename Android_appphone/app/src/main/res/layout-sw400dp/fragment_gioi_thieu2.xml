@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fbfafc"
+    android:padding="16dp"
+    tools:context=".GioiThieu1Fragment">
+
+    <ImageView
+        android:id="@+id/anh2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/logovip3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HÃY CHỌN  CHIẾC ĐIỆN TUYỆT VỜI CHO RIÊNG BẠN."
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:paddingTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Hiện có vô số smartphone sở hữu những tính năng nổi trội, thiết kế đẹp, cấu hình siêu khủng, nhưng đâu là sản phẩm bạn tâm đắc nhất. Mời tham khảo các mẫu điện thoại của chúng tôi để có thể chọn mua được chiếc smartphone thích hợp cho riêng bạn."
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+</LinearLayout>

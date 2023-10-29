@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/register_bk_color"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imganh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profile1"/>
+    <TextView
+        android:id="@+id/tennd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên User"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+        android:id="@+id/tv_editpro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/ic_pro"
+        android:drawableRight="@drawable/ic_right"/>
+
+        <TextView
+            android:id="@+id/tv_shipping"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Shipping Address"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_address"
+            android:drawableRight="@drawable/ic_right"/>
+
+        <TextView
+            android:id="@+id/tv_order"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Order History"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_order"
+            android:drawableRight="@drawable/ic_right"/>
+        <TextView
+            android:id="@+id/tv_notifi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Notification"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_notifi"
+            android:drawableRight="@drawable/ic_right"/>
+            <TextView
+                android:id="@+id/tv_doimk"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Đổi Mật Khẩu"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_wish"
+                android:drawableRight="@drawable/ic_right"/>
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Đăng Xuất"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_card"
+            android:drawableRight="@drawable/ic_right"/>
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/fragment_gio_hang_scene">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/xoagiohang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="Xóa"
+                android:textColor="#C60505"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dienthoaicach"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lv_giohang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng cộng: "
+                android:textAlignment="center"
+                android:textColor="#151515"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_thanhtoan"
+                app:layout_constraintEnd_toStartOf="@+id/vnd"
+                app:layout_constraintTop_toTopOf="@+id/btn_thanhtoan"
+                app:layout_constraintVertical_bias="0.205" />
+
+            <TextView
+                android:id="@+id/vnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="vnd"
+                android:textAlignment="textStart"
+                android:textColor="#222121"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_thanhtoan"
+                app:layout_constraintEnd_toStartOf="@+id/btn_thanhtoan"
+                app:layout_constraintTop_toTopOf="@+id/btn_thanhtoan"
+                app:layout_constraintVertical_bias="0.205" />
+
+            <TextView
+                android:id="@+id/textphi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phí vận chuyển "
+                android:textAlignment="center"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_thanhtoan"
+                app:layout_constraintEnd_toStartOf="@+id/tiengh"
+                app:layout_constraintTop_toTopOf="@+id/btn_thanhtoan"
+                app:layout_constraintVertical_bias="0.905" />
+
+            <TextView
+                android:id="@+id/tiengh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="25.000 đ"
+                android:textAlignment="textStart"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_thanhtoan"
+                app:layout_constraintEnd_toStartOf="@+id/btn_thanhtoan"
+                app:layout_constraintTop_toTopOf="@+id/btn_thanhtoan"
+                app:layout_constraintVertical_bias="0.905" />
+
+            <Button
+                android:id="@+id/btn_thanhtoan"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn"
+                android:text="Thanh Toán"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/chontatca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Chọn tất cả"
+                android:textColor="#2B2A2A"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

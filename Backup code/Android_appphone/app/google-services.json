@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931100074773",
+    "firebase_url": "https://appphone-e0911-default-rtdb.firebaseio.com",
+    "project_id": "appphone-e0911",
+    "storage_bucket": "appphone-e0911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931100074773:android:5c33ef3bd7626ff3143f1c",
+        "android_client_info": {
+          "package_name": "com.example.appphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931100074773-fvl2kguburnt24ansdc4nt95i3ilaq8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWa_p9ZKBauRq22BrIRUnr70DOgjitHAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931100074773-fvl2kguburnt24ansdc4nt95i3ilaq8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

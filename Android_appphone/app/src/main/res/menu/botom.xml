@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:checked="true"
+        android:icon="@drawable/trangchu"
+        android:title="" />
+    <item
+        android:id="@+id/toi"
+        android:icon="@drawable/toi"
+        android:title="" />
+    <item
+        android:id="@+id/sanpham"
+        android:icon="@drawable/smartphone"
+
+        android:title="" />
+
+    <item
+        android:id="@+id/giohang"
+        android:icon="@drawable/giohang"
+        android:title="" />
+
+
+    <item
+        android:id="@+id/lichsu"
+        android:icon="@drawable/lichsu"
+        android:title="" />
+</menu>

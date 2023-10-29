@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <include layout="@layout/content_main" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/nen_appbar"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_anchorGravity="center"
+        app:popupTheme="@style/Theme.DuAn1_Nhom5.NoActionBar.PopupOverlay">
+
+        <EditText
+            android:id="@+id/timkiemappbar"
+            android:layout_width="match_parent"
+            android:hint="Tìm Kiếm Sản Phẩm"
+            android:background="#00000000"
+            android:layout_height="match_parent"/>
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

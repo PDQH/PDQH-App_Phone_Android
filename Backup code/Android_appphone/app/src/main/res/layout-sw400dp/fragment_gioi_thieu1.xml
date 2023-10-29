@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbfafc"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".GioiThieu1Fragment">
+
+    <ImageView
+        android:id="@+id/anh1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/logovip3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIỚI THIỆU VỀ HỆ THỐNG FIVE FRIEND SHOP"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="FIVE FRIEND SHOP Luôn Tự Hào Với Những Sản Phẩm Chất Lượng Nhập Từ Những Nước Có Thị Trường Lớn, Chúng Tôi Luôn Có Những Sản Phẩm Chất Lượng Nhất Mang Đến Với Tất Cả Khách Hàng , Luôn Đặt Chất Lượng Của Khách Hàng Lên Hàng Đầu"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+</LinearLayout>

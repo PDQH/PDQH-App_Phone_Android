@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appphone.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/nav_qlnguoidung"
+        android:name="com.example.appphone.ThanhVienFragment"
+        android:label=""
+        tools:layout="@layout/fragment_thanh_vien" />
+    <fragment
+        android:id="@+id/nav_dienthoai"
+        android:name="com.example.appphone.DienThoaiFragment"
+        android:label=""
+        tools:layout="@layout/fragment_dien_thoai" />
+    <fragment
+        android:id="@+id/nav_qldienthoai"
+        android:name="com.example.appphone.QuanLyDienThoaiFragment"
+        android:label=""
+        tools:layout="@layout/fragment_quanlydienthoai" />
+    <fragment
+        android:id="@+id/nav_qldonhang"
+        android:name="com.example.appphone.QuanLyDonHangFragment"
+        android:label=""
+        tools:layout="@layout/fragment_quan_ly_don_hang" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.appphone.ThongKeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_thongke1" />
+    <fragment
+        android:id="@+id/nav_thongbao"
+        android:name="com.example.appphone.ThongBaoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_thong_bao" />
+
+</navigation>
